@@ -8,7 +8,7 @@ console.log('i can see the file');
 
 /* ciclo con commento da 1 a 100 */
 for (let i=1; i<=100; i++){
-    console.log(i);
+    
 /* ciclo con il *3 *5 BuzzFizz */
     if (i%3 == 0 && i%5 == 0){
         console.log('BuzzFizz');  
@@ -20,6 +20,8 @@ for (let i=1; i<=100; i++){
     }
     else if (i%5 == 0) {
         console.log('Buzz');
-        
+    }
+    else {
+        console.log(i);
     }
 }

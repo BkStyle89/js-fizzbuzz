@@ -11,15 +11,15 @@ for (let i=1; i<=100; i++){
     console.log(i);
 /* ciclo con il *3 *5 BuzzFizz */
     if (i%3 == 0 && i%5 == 0){
-        console.log(i, 'BuzzFizz');  
+        console.log('BuzzFizz');  
     }
  /* ciclo * 3 Fizz con commento */   
     else if (i%3 == 0) {
-        console.log(i,'Fizz');
+        console.log('Fizz');
 /* ciclo * 5 Buzz con commento */
     }
     else if (i%5 == 0) {
-        console.log(i,'Buzz');
+        console.log('Buzz');
         
     }
 }
